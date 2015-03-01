@@ -11,7 +11,24 @@ The user has a choice of the small/large number ratio. This is specified by ente
 
 Sample Usage:
 
-(Yet to come)
+```
+tdp@pc:~/Documents/repo/countdown$ python cd-nums.py
+How many large numbers would you like?3
+[8, 7, 7, 75, 25, 100]
+Target is: 253
+tdp@pc:~/Documents/repo/countdown$ python cd-nums.py
+How many large numbers would you like?2
+[6, 7, 7, 8, 100, 50]
+Target is: 947
+tdp@pc:~/Documents/repo/countdown$ python cd-nums.py
+How many large numbers would you like?1
+[2, 7, 1, 1, 7, 75]
+Target is: 280
+tdp@pc:~/Documents/repo/countdown$ python cd-nums.py
+How many large numbers would you like?5
+Must have 0-4 large numbers
+```
+
 
 ## Letters
 
@@ -21,4 +38,14 @@ The user can choose the ratio of vowels to consonants, subject to the restrictio
 
 Sample Usage:
 
-(Yet to come)
+```
+tdp@pc:~/Documents/repo/countdown$ python cd-letters.py
+How many vowels would you like?3
+['u', 'u', 'a', 'r', 'r', 't', 't', 'c', 'l']
+tdp@pc:~/Documents/repo/countdown$ python cd-letters.py
+How many vowels would you like?4
+['e', 'o', 'u', 'o', 't', 'g', 'w', 'l', 'm']
+tdp@pc:~/Documents/repo/countdown$ python cd-letters.py
+How many vowels would you like?0
+Must have 3-5 vowels and 4-6 consonants
+```
